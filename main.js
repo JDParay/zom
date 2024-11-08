@@ -33,6 +33,8 @@ const DRAIN = new THREE.TextureLoader().load('assets/textures/drain.jpg');
 const TOXIC = new THREE.TextureLoader().load('assets/textures/toxic_drain.jpg');
 const NOPET = new THREE.TextureLoader().load('assets/textures/noPets.jpg');
 const CARPET = new THREE.TextureLoader().load('assets/textures/Carpet.png');
+const MANHOLE = new THREE.TextureLoader().load('assets/textures/manhole.png');
+
 
 function addLight() {
 const directionalLight = new THREE.DirectionalLight( 0xfffed4, 3 );
@@ -152,6 +154,14 @@ function Miscs() {
     Carpet.position.set(-52, 1, 9);
     Carpet.rotation.set(0, 0, 1.55);
     scene.add(Carpet);
+
+    //manhole
+    const ManHoleG = new THREE.CircleGeometry(4.5, 32);
+    const ManHoleM = new THREE.MeshStandardMaterial({map: MANHOLE});
+    const ManHole = new THREE.Mesh(ManHoleG, ManHoleM);
+    ManHole.position.set(62,0,-22);
+    ManHole.rotation.x = -1.55;
+    scene.add(ManHole);
 
 
 }
@@ -536,7 +546,7 @@ const controls = new OrbitControls(camera, renderer.domElement);
         controls.enableDamping = true;
         controls.dampingFactor = 0.05;
 
-camera.position.set(0,120,70);
+camera.position.set(0,120,50);
 camera.rotation.x = Math.PI / 4;;
 
 function animate() {
