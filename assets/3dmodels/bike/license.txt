@@ -1,0 +1,11 @@
+Model Information:
+* title:	children's bike
+* source:	https://sketchfab.com/3d-models/childrens-bike-2f32407e7b41434ab05d8f3c3e98dbbf
+* author:	prostoi1997 (https://sketchfab.com/prostoi1997)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "children's bike" (https://sketchfab.com/3d-models/childrens-bike-2f32407e7b41434ab05d8f3c3e98dbbf) by prostoi1997 (https://sketchfab.com/prostoi1997) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

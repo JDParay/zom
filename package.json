@@ -1,0 +1,20 @@
+{
+  "name": "zom",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1",
+    "three": "^0.170.0",
+    "three-csg-ts": "^3.2.0"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
